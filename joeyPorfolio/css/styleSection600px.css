@@ -1,0 +1,128 @@
+:root{
+  --myBackGround: rgb(45, 48, 46);
+
+}
+/*----------------- Sample Projects media query -------------*/
+
+/*  Extra small devices(phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+       /*--------- Main Page ------------*/
+    #section--1{
+      height: 100vh;      
+    }
+       /*--------- nav area ---------*/
+    .nav__item{
+       font-size: 1rem;
+
+    }
+
+    .myPhoto{
+      margin-top: 70px;
+    }
+
+    .paraWelcome{
+      font-size: 1.4rem;
+    }
+
+    .paraIntroduction{
+      font-size: 1.2rem;
+    }
+
+  /*------------- section 2 sample projects slide show are -------------*/  
+ 
+  .sectionTitle{
+      font-size: 1.2rem;
+      padding: 5px 0;
+    }  
+
+     .appTitle{
+      color: greenyellow;
+      font-size: 1.1rem;
+    }
+         /* projects photo's */
+     #bankPhoto, #gamePhoto, #hotelPhoto, #schoolPhoto{
+      width: 75%;
+      height: 70%;
+    }
+       /* arrow size */
+     .arrow.leftArrow, .arrow.rightArrow{
+      font-size: 1rem;
+      color: aqua;
+     }
+    
+    .arrow{
+      background-color: #27275f;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 25px;
+      color: #FFFFFF;
+      font-weight: bold;
+      opacity: 0.5;
+      border: none;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      text-decoration: none;    
+      cursor: pointer;   
+      margin-top: 130px; 
+  }
+
+   #appPara{
+     font-size: .8rem;
+   }
+
+   /*------------- About Me -----------------*/
+   .gallery-container{
+     background-color: var(--myBackGround);
+   }
+
+   .gallery-container > div{           
+    justify-content: space-between;
+   }
+   .cardOne, .cardTwo, .cardThree{
+    border: 1px solid rgb(131, 13, 53);
+   }
+
+   .aboutMeTitle{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 30px #FF0000;
+   }
+
+   p{
+    font-size: .9rem;
+   }
+   
+   .school, .workPlace{
+    color: rgb(19, 199, 199);
+    font-size: .8rem;
+   }
+
+
+    /* ------------ Footer Section ---------- */
+    .footerOne{
+      display: none;
+    }
+
+    .footerTwo{
+      width: 100%;
+      padding: 10px;
+      margin: 5px;
+      display: flex;
+      text-align: center;
+      justify-content: center;      
+    }    
+
+    .footerThree{
+      background-color: black;
+           
+    }
+    
+    .footerRight > div{
+      height: 48%;
+      margin: 5px;
+    }       
+}
+
+    
